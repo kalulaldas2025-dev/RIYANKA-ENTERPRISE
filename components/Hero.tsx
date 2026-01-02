@@ -30,9 +30,9 @@ const Hero: React.FC = () => {
               </a>
             </div>
             
-            <div className="mt-12 flex items-center justify-center md:justify-start gap-8 opacity-60 grayscale hover:grayscale-0 transition-all">
+            <div className="pb-3 mt-12 flex items-center justify-center md:justify-start gap-8 opacity-60 grayscale hover:grayscale-0 transition-all">
               <img src="https://img.icons8.com/ios-filled/50/ffffff/guarantee.png" alt="Warranty" className="h-8" title="Original Warranty" />
-              <img src="https://img.icons8.com/ios-filled/50/ffffff/verified-badge.png" alt="Authorized" className="h-8" title="Authorized Dealer" />
+              <img src="https://img.icons8.com/ios-glyphs/50/ffffff/verified-account.png" alt="Authorized" className="h-8" title="Authorized Dealer" />
               <img src="https://img.icons8.com/ios-filled/50/ffffff/online-support.png" alt="Support" className="h-8" title="Full Support" />
             </div>
           </div>
@@ -40,7 +40,8 @@ const Hero: React.FC = () => {
           <div className="md:w-2/5 relative animate-float">
             <div className="relative z-10 drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]">
               <img 
-                src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbea?w=800&q=80" 
+                // src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbea?w=800&q=80" 
+                src="../assets/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png" 
                 alt="Latest Itel Phone" 
                 className="w-full h-auto rounded-3xl"
               />
