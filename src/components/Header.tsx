@@ -19,7 +19,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10  rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
-            <img src="../../public/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm-logo-fn.png" alt="logo" />
+            <img src={"../../public/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm-logo-fn.png"} alt="logo" onerror="this.src='/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm-logo-fn.png';"/>
           </div>
           <span className={`font-heading font-bold text-xl md:text-2xl transition-colors ${
             isScrolled ? 'text-slate-900' : 'text-slate-900 md:text-white'

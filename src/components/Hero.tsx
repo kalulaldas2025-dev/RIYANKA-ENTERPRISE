@@ -41,6 +41,7 @@ const Hero: React.FC = () => {
                 src="../../public/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png" 
                 alt="Latest Itel Phone" 
                 className="w-full h-auto rounded-3xl"
+                onerror="this.src='/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png';"
               />
             </div>
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-600 rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-pulse"></div>
