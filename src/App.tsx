@@ -135,7 +135,8 @@ const App: React.FC = () => {
                   className="w-full h-auto"
                 /> */}
                 <video
-                  src="../../public/videos/itel-video.mp4"
+                  src="/videos/itel-video.mp4"
+                  onerror="this.src='/videos/itel-video.mp4';"
                   // controls
                   muted
                   autoPlay="true"
