@@ -50,8 +50,8 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
               </div>
-
               <div className="flex items-center gap-6 group">
+              <a className="flex items-center gap-3"  target="_blank" href={`https://maps.app.goo.gl/o2VnL3pg2XNnue3f9`}>
                 <div className="w-16 h-16 bg-white shadow-md rounded-2xl flex items-center justify-center text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-all">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -59,11 +59,14 @@ const Contact: React.FC = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-slate-500 font-medium">Our Store Location</h4>
-                  <p className="text-xl font-bold text-slate-900 leading-tight">
-                    Visit us at Riyanka Enterprise,<br />Authorized Itel Hub
-                  </p>
+                  
+                    <h4 className="text-slate-500 font-medium">Our Store Location</h4>
+                    <p className="text-xl font-bold text-slate-900 leading-tight">
+                      Visit us at Riyanka Enterprise,<br />Authorized Itel Hub <br /> Gandhi nagar E/53, Hatiberia, Haldia <br /> Purbamedinipur PIN-721657
+                    </p>
+                  
                 </div>
+              </a>
               </div>
             </div>
           </div>

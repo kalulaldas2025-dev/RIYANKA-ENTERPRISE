@@ -1,5 +1,5 @@
 import React from 'react';
-import { BUSINESS_NAME, BRAND_NAME, CONTACT_NUMBERS } from '../constants';
+import { BUSINESS_NAME, BRAND_NAME, CONTACT_NUMBERS, EMAIL_ID } from '../constants';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold">R</div>
+              <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold">
+                <img src="images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm-logo-fn.png" alt="" />
+              </div>
               <span className="font-heading font-bold text-xl">{BUSINESS_NAME}</span>
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
@@ -33,20 +35,34 @@ const Footer: React.FC = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                {CONTACT_NUMBERS[0]}
+                <a href={`tel:${CONTACT_NUMBERS[0]}`}>
+                  {CONTACT_NUMBERS[0]}
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                {CONTACT_NUMBERS[1]}
+                <a href={`tel:${CONTACT_NUMBERS[1]}`}>
+                  {CONTACT_NUMBERS[1]}
+                </a>
               </li>
               <li className="flex items-center gap-3">
+                {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg> */}📨
+                <a href={`mailto:${EMAIL_ID}`}>
+                  {EMAIL_ID}
+                </a>
+              </li>
+              <li>
+                <a  className="flex items-center gap-3" target="_blank" href={`https://maps.app.goo.gl/o2VnL3pg2XNnue3f9`}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                Main Road, Authorized Itel Store
+                <p>Gandhi nagar E/53, Hatiberia, Haldia, Purbamedinipur <br /> PIN-721657</p>
+              </a>
               </li>
             </ul>
           </div>
