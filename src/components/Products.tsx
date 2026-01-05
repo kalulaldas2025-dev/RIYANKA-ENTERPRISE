@@ -57,9 +57,11 @@ const Products: React.FC = () => {
                   <span className="text-blue-600 font-bold">{product.price}</span>
                 </div>
                 <p className="text-slate-500 mb-8 flex-grow">{product.description}</p>
-                <button className="w-full py-3.5 bg-slate-900 text-white font-bold rounded-xl group-hover:bg-blue-600 transition-colors shadow-lg hover:shadow-blue-500/20">
-                  Inquire Now
-                </button>
+                <a href="#contact">
+                  <button className="w-full py-3.5 bg-slate-900 text-white font-bold rounded-xl group-hover:bg-blue-600 transition-colors shadow-lg hover:shadow-blue-500/20">
+                    Inquire Now
+                  </button>
+                </a>
               </div>
             </div>
           ))}
