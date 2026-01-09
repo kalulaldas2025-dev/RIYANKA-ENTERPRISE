@@ -1,6 +1,7 @@
 /* Basic placeholder styles — keep your Tailwind setup in index.html */
 html, body, #root {
   height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;

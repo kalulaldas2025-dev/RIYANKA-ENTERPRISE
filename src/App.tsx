@@ -121,7 +121,7 @@ const App: React.FC = () => {
                   </div>
                   <div className="w-px h-10 bg-white/10"></div>
                   <div className="flex flex-col">
-                    <span className="text-white font-bold text-2xl">5.0</span>
+                    <span className="text-white font-bold text-2xl">4.8</span>
                     <span className="text-slate-500 text-sm">
                       Customer Rating
                     </span>

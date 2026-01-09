@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             <div className="relative z-10 drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]">
               <img 
                 style={{scale: 0.75}}
-                src="/images/products/smart-phones/itel-a100c.jpeg" 
+                src="/images/branding/itel-a100c.jpeg" 
                 alt="Latest Itel Phone" 
                 className="w-full h-auto rounded-3xl"
                 onerror="this.src='/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png';"
