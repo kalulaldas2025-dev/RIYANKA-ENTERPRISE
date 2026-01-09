@@ -38,11 +38,18 @@ const Hero: React.FC = () => {
           <div className="md:w-2/5 relative animate-float">
             <div className="relative z-10 drop-shadow-[0_35px_35px_rgba(59,130,246,0.3)]">
               <img 
-                src="/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png" 
+                style={{scale: 0.75}}
+                src="/images/products/smart-phones/itel-a100c.jpeg" 
                 alt="Latest Itel Phone" 
                 className="w-full h-auto rounded-3xl"
                 onerror="this.src='/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png';"
               />
+              {/* <img 
+                src="/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png" 
+                alt="Latest Itel Phone" 
+                className="w-full h-auto rounded-3xl"
+                onerror="this.src='/images/branding/riyanka_enterprise_no_bg_ultra_smooth-strk-rm.png';"
+              /> */}
             </div>
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-600 rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-pulse"></div>
             <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-pink-600 rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-pulse delay-700"></div>
